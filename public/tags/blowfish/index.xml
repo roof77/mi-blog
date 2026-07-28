@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mi blog</title>
-    <link>http://localhost:1313/mi-bog/</link>
-    <description>Recent content on Mi blog</description>
+    <title>Blowfish on Mi blog</title>
+    <link>http://localhost:1313/mi-bog/tags/blowfish/</link>
+    <description>Recent content in Blowfish on Mi blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mi-bog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mi-bog/tags/blowfish/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Crear un blog personal con Hugo y Blowfish</title>
