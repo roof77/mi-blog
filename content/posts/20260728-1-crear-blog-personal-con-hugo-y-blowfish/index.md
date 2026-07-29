@@ -1,10 +1,18 @@
 ---
-title: "Crear un blog personal con Hugo y Blowfish"
+title: Crear un blog personal con Hugo y Blowfish
 date: 2026-07-28T10:00:00
-tags: ["hugo", "blog" , "blowfish"]
+tags:
+- hugo
+- blog
+- blowfish
 showHero: true
-heroStyle: "big" # "big" | "background" | "thumbAndBackground" | "basic"
+heroStyle: big
+id: 3f879c65-4cfb-451c-89e2-6cce93117670
+pinned: false
+created: 2026-07-28T09:21:07.824815985+00:00
+modified: 2026-07-29T09:11:54.476271+00:00
 ---
+# Crear un blog personal con Hugo y Blowfish
 
 # Crear un blog personal con Hugo y Blowfish (a mi manera)
 
@@ -20,27 +28,27 @@ hugo version
 
 # 2. Crear el repositorio en github.
 
-Creamos el repositorio en github con el nombre que vayamos a usar. En este caso será ```mi-blog```.
+Creamos el repositorio en github con el nombre que vayamos a usar. En este caso será `mi-blog`.
 
 Descargamos el repositorio a nuestro disco duro con el comando
 
-```
+```text
 git clone https://github.com/TU-NOMBRE/mi-blog.git
 ```
 
 Entramos dentro de la carpeta mi-blog y ejecutamos:
 
-```
+```text
 hugo new site . --force
 ```
 
 Para forzar la creación del sitio de Hugo.
 
-Lo normal sería crear el sitio de Hugo, hacer un ```git init``` y subirlo luego con un commit y un push, pero no se tanto de git
+Lo normal sería crear el sitio de Hugo, hacer un `git init` y subirlo luego con un commit y un push, pero no se tanto de git
 
 ## 3. Instalar Blowfish como submódulo git
 
-```
+```text
 git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 git submodule update --init --recursive
 ```
@@ -62,7 +70,7 @@ cp themes/blowfish/config/_default/*.toml config/_default/
 
 Esto te deja esta estructura:
 
-```
+```text
 config/_default/
 ├── hugo.toml
 ├── languages.en.toml
@@ -122,7 +130,7 @@ title = "Mi Blog" # Título real de tu blog (sustituye el placeholder "Blowfish"
 
 > Nota sobre `dateFormat`: Go/Hugo usan una fecha de referencia fija (`2006-01-02 15:04:05`) en vez de tokens como `YYYY-MM-DD`. Para el formato ISO-8601 de solo fecha, el valor exacto es `"2006-01-02"`. Si además necesitas hora y zona horaria, usa `"2006-01-02T15:04:05Z07:00"`.
 
-**¿Necesitas `content/es/`?** Solo si vas a tener varios idiomas simultáneos en el sitio. Con un único idioma configurado (como en esta guía), el contenido va directamente en `content/`, sin subcarpeta de idioma.
+**¿Necesitas **`content/es/`**?** Solo si vas a tener varios idiomas simultáneos en el sitio. Con un único idioma configurado (como en esta guía), el contenido va directamente en `content/`, sin subcarpeta de idioma.
 
 ## 7. Configurar `config/_default/params.toml`
 
@@ -157,12 +165,12 @@ mv config/_default/menus.en.toml config/_default/menus.es.toml
 ```
 
 ```toml
-[[main]]
+<span data-wiki-link data-path="" data-title="main" class="wiki-link">main</span>
   name = "Buscar" # Texto mostrado para el enlace
   pageRef = "search" # Referencia a la página de búsqueda
   weight = 10 # Orden de aparición (menor peso = más a la izquierda)
 
-[[main]]
+<span data-wiki-link data-path="" data-title="main" class="wiki-link">main</span>
   name = "Etiquetas"
   pageRef = "tags"
   weight = 20
@@ -185,8 +193,8 @@ En `config/_default/params.toml`, bajo `[homepage]`:
   layoutBackgroundBlur = false # solo aplica si layout = "background"; añade desenfoque a la imagen
 ```
 
-- **`"hero"`**: la imagen queda contenida en la parte superior, junto con tu información de autor y el contenido markdown debajo.
-- **`"background"`**: versión más suave, con la imagen ocupando todo el fondo de la portada.
+- `"hero"`: la imagen queda contenida en la parte superior, junto con tu información de autor y el contenido markdown debajo.
+- `"background"`: versión más suave, con la imagen ocupando todo el fondo de la portada.
 
 ### 9.2 Dónde colocar el archivo de imagen
 
@@ -198,6 +206,7 @@ cp /ruta/a/tu/imagen.jpg assets/img/cabecera.jpg
 ```
 
 Referencia sin barra inicial en `params.toml`:
+
 ```toml
 homepageImage = "img/cabecera.jpg"
 ```
@@ -212,6 +221,7 @@ cp /ruta/a/tu/imagen.jpg static/img/cabecera.jpg
 ```
 
 Referencia **con** barra inicial:
+
 ```toml
 homepageImage = "/img/cabecera.jpg"
 ```
@@ -219,17 +229,19 @@ homepageImage = "/img/cabecera.jpg"
 ### 9.3 Tamaño recomendado de la imagen
 
 | Layout | Ancho | Alto | Proporción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `"background"` | 1920-2560 px | 1080-1440 px | Panorámica ancha (16:9), cubre toda la ventana del navegador |
 | `"hero"` | 1600-1920 px | 600-900 px | Panorámica, tipo 21:9 o 16:6, menos alta que "background" |
 
 Recomendaciones generales:
+
 - **Peso del archivo**: idealmente bajo 500 KB, aunque al cargar solo en portada no es tan crítico como una imagen presente en todas las páginas.
 - **Punto de interés centrado**: la imagen se recorta tipo `cover` para llenar el contenedor, así que evita elementos importantes pegados a bordes o esquinas.
 - Si usas la Opción A (procesada), puedes subir el original más grande sin miedo al peso final, ya que Hugo la comprime. Para más nitidez en pantallas grandes, sube el original en la parte alta del rango y ajusta también:
-  ```toml
-  backgroundImageWidth = 1920
-  ```
+
+```toml
+backgroundImageWidth = 1920
+```
 
 ## 10. Cabecera por artículo
 
@@ -247,16 +259,17 @@ heroCaption: "Pie de foto opcional" # solo se muestra con heroStyle: big
 ```
 
 Las opciones de `heroStyle` son:
-- **`"basic"`**: imagen pequeña/discreta.
-- **`"big"`**: la imagen se muestra como un bloque propio al principio del artículo, con posibilidad de leyenda (`heroCaption`). Es la opción recomendada si no quieres que la imagen ocupe todo el fondo.
-- **`"background"`**: la imagen actúa como fondo de toda la cabecera del artículo, con efecto de difuminado al hacer scroll (activable/desactivable con `layoutBackgroundBlur`).
-- **`"thumbAndBackground"`**: combina una miniatura con fondo difuminado.
+
+- `"basic"`: imagen pequeña/discreta.
+- `"big"`: la imagen se muestra como un bloque propio al principio del artículo, con posibilidad de leyenda (`heroCaption`). Es la opción recomendada si no quieres que la imagen ocupe todo el fondo.
+- `"background"`: la imagen actúa como fondo de toda la cabecera del artículo, con efecto de difuminado al hacer scroll (activable/desactivable con `layoutBackgroundBlur`).
+- `"thumbAndBackground"`: combina una miniatura con fondo difuminado.
 
 Y coloca la imagen como `featured.jpg` en la misma carpeta del post (page bundle).
 
 ## 11. Estructura de contenido recomendada (page bundles)
 
-```
+```text
 content/
   posts/
     mi-primer-articulo/

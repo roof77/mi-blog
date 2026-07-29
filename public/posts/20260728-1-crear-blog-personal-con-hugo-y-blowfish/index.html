@@ -54,7 +54,7 @@
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
 		<meta property="article:published_time" content="2026-07-28T10:00:00+00:00">
-		<meta property="article:modified_time" content="2026-07-28T10:00:00+00:00">
+		<meta property="article:modified_time" content="2026-07-29T09:11:54+00:00">
 		<meta property="article:tag" content="Hugo">
 		<meta property="article:tag" content="Blog">
 		<meta property="article:tag" content="Blowfish">
@@ -227,12 +227,12 @@
     "dateCreated": "2026-07-28T10:00:00\u002b00:00",
     "datePublished": "2026-07-28T10:00:00\u002b00:00",
     
-    "dateModified": "2026-07-28T10:00:00\u002b00:00",
+    "dateModified": "2026-07-29T09:11:54\u002b00:00",
     
     "keywords": ["hugo","blog","blowfish"],
     
     "mainEntityOfPage": "http://localhost:1313/mi-bog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/",
-    "wordCount": "1782"
+    "wordCount": "1799"
   }]
   </script>
 
@@ -639,7 +639,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-07-28T10:00:00&#43;00:00">2026-07-28</time><span class="px-2 text-primary-500">&middot;</span><span>1782 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">9 mins</span>
+      <time datetime="2026-07-28T10:00:00&#43;00:00">2026-07-28</time><span class="px-2 text-primary-500">&middot;</span><span>1799 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">9 mins</span>
     
 
     
@@ -801,6 +801,16 @@
 
         <div class="article-content max-w-prose mb-20">
           
+<h1 class="relative group">Crear un blog personal con Hugo y Blowfish
+    <div id="crear-un-blog-personal-con-hugo-y-blowfish" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#crear-un-blog-personal-con-hugo-y-blowfish" aria-label="Ancla">#</a>
+    </span>
+    
+</h1>
+
 <h1 class="relative group">Crear un blog personal con Hugo y Blowfish (a mi manera)
     <div id="crear-un-blog-personal-con-hugo-y-blowfish-a-mi-manera" class="anchor"></div>
     
@@ -927,7 +937,7 @@
 </span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="nx">github</span> <span class="p">=</span> <span class="s2">&#34;https://github.com/TU_USUARIO&#34;</span> <span class="p">},</span>
 </span></span><span class="line"><span class="cl">  <span class="p">]</span></span></span></code></pre></div></div>
 <blockquote><p>Nota sobre <code>dateFormat</code>: Go/Hugo usan una fecha de referencia fija (<code>2006-01-02 15:04:05</code>) en vez de tokens como <code>YYYY-MM-DD</code>. Para el formato ISO-8601 de solo fecha, el valor exacto es <code>&quot;2006-01-02&quot;</code>. Si además necesitas hora y zona horaria, usa <code>&quot;2006-01-02T15:04:05Z07:00&quot;</code>.</p>
-</blockquote><p><strong>¿Necesitas <code>content/es/</code>?</strong> Solo si vas a tener varios idiomas simultáneos en el sitio. Con un único idioma configurado (como en esta guía), el contenido va directamente en <code>content/</code>, sin subcarpeta de idioma.</p>
+</blockquote><p><strong>¿Necesitas <strong><code>content/es/</code></strong>?</strong> Solo si vas a tener varios idiomas simultáneos en el sitio. Con un único idioma configurado (como en esta guía), el contenido va directamente en <code>content/</code>, sin subcarpeta de idioma.</p>
 
 <h2 class="relative group">7. Configurar <code>config/_default/params.toml</code>
     <div id="7-configurar-config_defaultparamstoml" class="anchor"></div>
@@ -966,12 +976,12 @@
 </h2>
 <p>Renombra también el archivo de menús para que coincida con el idioma:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mv config/_default/menus.en.toml config/_default/menus.es.toml</span></span></code></pre></div></div>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">main</span><span class="p">]]</span>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="err">&lt;</span><span class="nx">span</span> <span class="nx">data-wiki-link</span> <span class="nx">data-path</span><span class="p">=</span><span class="s2">&#34;&#34;</span> <span class="nx">data-title</span><span class="p">=</span><span class="s2">&#34;main&#34;</span> <span class="nx">class</span><span class="p">=</span><span class="s2">&#34;wiki-link&#34;</span><span class="err">&gt;</span><span class="nx">main</span><span class="err">&lt;/</span><span class="nx">span</span><span class="err">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Buscar&#34;</span> <span class="c"># Texto mostrado para el enlace</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">pageRef</span> <span class="p">=</span> <span class="s2">&#34;search&#34;</span> <span class="c"># Referencia a la página de búsqueda</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">10</span> <span class="c"># Orden de aparición (menor peso = más a la izquierda)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="err">&lt;</span><span class="nx">span</span> <span class="nx">data-wiki-link</span> <span class="nx">data-path</span><span class="p">=</span><span class="s2">&#34;&#34;</span> <span class="nx">data-title</span><span class="p">=</span><span class="s2">&#34;main&#34;</span> <span class="nx">class</span><span class="p">=</span><span class="s2">&#34;wiki-link&#34;</span><span class="err">&gt;</span><span class="nx">main</span><span class="err">&lt;/</span><span class="nx">span</span><span class="err">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Etiquetas&#34;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">pageRef</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">20</span></span></span></code></pre></div></div>
@@ -1004,8 +1014,8 @@
 </span></span><span class="line"><span class="cl">  <span class="nx">showRecentItems</span> <span class="p">=</span> <span class="mi">5</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">layoutBackgroundBlur</span> <span class="p">=</span> <span class="kc">false</span> <span class="c"># solo aplica si layout = &#34;background&#34;; añade desenfoque a la imagen</span></span></span></code></pre></div></div>
 <ul>
-<li><strong><code>&quot;hero&quot;</code></strong>: la imagen queda contenida en la parte superior, junto con tu información de autor y el contenido markdown debajo.</li>
-<li><strong><code>&quot;background&quot;</code></strong>: versión más suave, con la imagen ocupando todo el fondo de la portada.</li>
+<li><code>&quot;hero&quot;</code>: la imagen queda contenida en la parte superior, junto con tu información de autor y el contenido markdown debajo.</li>
+<li><code>&quot;background&quot;</code>: versión más suave, con la imagen ocupando todo el fondo de la portada.</li>
 </ul>
 
 <h3 class="relative group">9.2 Dónde colocar el archivo de imagen
@@ -1066,10 +1076,9 @@
 <ul>
 <li><strong>Peso del archivo</strong>: idealmente bajo 500 KB, aunque al cargar solo en portada no es tan crítico como una imagen presente en todas las páginas.</li>
 <li><strong>Punto de interés centrado</strong>: la imagen se recorta tipo <code>cover</code> para llenar el contenedor, así que evita elementos importantes pegados a bordes o esquinas.</li>
-<li>Si usas la Opción A (procesada), puedes subir el original más grande sin miedo al peso final, ya que Hugo la comprime. Para más nitidez en pantallas grandes, sube el original en la parte alta del rango y ajusta también:
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">backgroundImageWidth</span> <span class="p">=</span> <span class="mi">1920</span></span></span></code></pre></div></div>
-</li>
+<li>Si usas la Opción A (procesada), puedes subir el original más grande sin miedo al peso final, ya que Hugo la comprime. Para más nitidez en pantallas grandes, sube el original en la parte alta del rango y ajusta también:</li>
 </ul>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">backgroundImageWidth</span> <span class="p">=</span> <span class="mi">1920</span></span></span></code></pre></div></div>
 
 <h2 class="relative group">10. Cabecera por artículo
     <div id="10-cabecera-por-artículo" class="anchor"></div>
@@ -1091,10 +1100,10 @@
 </span></span></span><span class="line"><span class="cl"><span class="nn">---</span></span></span></code></pre></div></div>
 <p>Las opciones de <code>heroStyle</code> son:</p>
 <ul>
-<li><strong><code>&quot;basic&quot;</code></strong>: imagen pequeña/discreta.</li>
-<li><strong><code>&quot;big&quot;</code></strong>: la imagen se muestra como un bloque propio al principio del artículo, con posibilidad de leyenda (<code>heroCaption</code>). Es la opción recomendada si no quieres que la imagen ocupe todo el fondo.</li>
-<li><strong><code>&quot;background&quot;</code></strong>: la imagen actúa como fondo de toda la cabecera del artículo, con efecto de difuminado al hacer scroll (activable/desactivable con <code>layoutBackgroundBlur</code>).</li>
-<li><strong><code>&quot;thumbAndBackground&quot;</code></strong>: combina una miniatura con fondo difuminado.</li>
+<li><code>&quot;basic&quot;</code>: imagen pequeña/discreta.</li>
+<li><code>&quot;big&quot;</code>: la imagen se muestra como un bloque propio al principio del artículo, con posibilidad de leyenda (<code>heroCaption</code>). Es la opción recomendada si no quieres que la imagen ocupe todo el fondo.</li>
+<li><code>&quot;background&quot;</code>: la imagen actúa como fondo de toda la cabecera del artículo, con efecto de difuminado al hacer scroll (activable/desactivable con <code>layoutBackgroundBlur</code>).</li>
+<li><code>&quot;thumbAndBackground&quot;</code>: combina una miniatura con fondo difuminado.</li>
 </ul>
 <p>Y coloca la imagen como <code>featured.jpg</code> en la misma carpeta del post (page bundle).</p>
 

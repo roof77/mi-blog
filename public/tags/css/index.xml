@@ -16,7 +16,7 @@
       
       <guid>http://localhost:1313/mi-bog/posts/20260728-2-modificar-css/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-bog/posts/20260728-2-modificar-css/featured.jpg" />
     </item>
     
   </channel>
