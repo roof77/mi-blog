@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/mi-bog/posts/20260729-guia-lectura-anual-el-conde-montecristo/</loc>
+    <loc>http://localhost:56877/mi-bog/posts/20260729-guia-lectura-anual-el-conde-montecristo/</loc>
     <lastmod>2026-07-28T11:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/mi-bog/</loc>
+    <loc>http://localhost:56877/mi-bog/</loc>
     <lastmod>2026-07-29T09:11:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/mi-bog/posts/20260728-2-modificar-css/</loc>
+    <loc>http://localhost:56877/mi-bog/posts/20260728-2-modificar-css/</loc>
     <lastmod>2026-07-29T06:31:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/mi-bog/posts/</loc>
+    <loc>http://localhost:56877/mi-bog/posts/</loc>
     <lastmod>2026-07-29T09:11:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/mi-bog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/</loc>
+    <loc>http://localhost:56877/mi-bog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/</loc>
     <lastmod>2026-07-29T09:11:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -150,3 +150,8 @@ html.dark span,
 html.dark article {
   color: #F8F8FF;
 }
+
+
+.article-content.max-w-prose {
+  max-width: 75ch; /* mismo valor y unidad que querías, pero de forma persistente */
+}
