@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://roof77.github.io/mi-bog/"
+baseURL = "https://roof77.github.io/mi-blog/"
 title = "Mi Blog"
 defaultContentLanguage = "es"
 
@@ -68,3 +68,6 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[server]
+  port = 1313 # Fuerza siempre este puerto al ejecutar hugo server

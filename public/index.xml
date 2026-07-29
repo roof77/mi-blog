@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mi blog</title>
-    <link>http://localhost:1313/mi-bog/</link>
+    <link>http://localhost:1313/mi-blog/</link>
     <description>Recent content on Mi blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 roof77</copyright>
-    <lastBuildDate>Wed, 29 Jul 2026 09:11:54 +0000</lastBuildDate><atom:link href="http://localhost:1313/mi-bog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jul 2026 09:11:54 +0000</lastBuildDate><atom:link href="http://localhost:1313/mi-blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Guía de lectura anual de El conde de Montecristo</title>
-      <link>http://localhost:1313/mi-bog/posts/20260729-guia-lectura-anual-el-conde-montecristo/</link>
+      <link>http://localhost:1313/mi-blog/posts/20260729-guia-lectura-anual-el-conde-montecristo/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mi-bog/posts/20260729-guia-lectura-anual-el-conde-montecristo/</guid>
+      <guid>http://localhost:1313/mi-blog/posts/20260729-guia-lectura-anual-el-conde-montecristo/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-bog/posts/20260729-guia-lectura-anual-el-conde-montecristo/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-blog/posts/20260729-guia-lectura-anual-el-conde-montecristo/featured.jpg" />
     </item>
     
     <item>
       <title>Modificar la hoja de estilos</title>
-      <link>http://localhost:1313/mi-bog/posts/20260728-2-modificar-css/</link>
+      <link>http://localhost:1313/mi-blog/posts/20260728-2-modificar-css/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mi-bog/posts/20260728-2-modificar-css/</guid>
+      <guid>http://localhost:1313/mi-blog/posts/20260728-2-modificar-css/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-bog/posts/20260728-2-modificar-css/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-blog/posts/20260728-2-modificar-css/featured.jpg" />
     </item>
     
     <item>
       <title>Crear un blog personal con Hugo y Blowfish</title>
-      <link>http://localhost:1313/mi-bog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/</link>
+      <link>http://localhost:1313/mi-blog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/</link>
       <pubDate>Tue, 28 Jul 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mi-bog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/</guid>
+      <guid>http://localhost:1313/mi-blog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-bog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-blog/posts/20260728-1-crear-blog-personal-con-hugo-y-blowfish/featured.jpg" />
     </item>
     
   </channel>
