@@ -1,0 +1,177 @@
+/* =========================================================
+   Esquema de color "mi-esquema" para Blowfish (Opción 4)
+
+   MODO CLARO:  Fondo #EFEFEF | Cabeceras #0077B6 | Texto #1E1E1E
+   MODO OSCURO: Fondo #0D0D0D | Cabeceras #00D9FF | Texto #E0E0E0
+   ========================================================= */
+
+/* -----------------------------------------------------------
+   1. Paleta base requerida por Blowfish/Tailwind.
+   Los valores van en formato "R G B" (sin comas, sin rgb()),
+   ya que así los usa Tailwind CSS 3.0 para poder aplicar
+   opacidad sobre las variables.
+   ----------------------------------------------------------- */
+:root {
+  /* neutral: fondos, bordes y base de la interfaz.
+     #EFEFEF es un gris puro (S=0%), así que la escala es
+     monocroma; el tono 100 (240 240 240) es el más cercano
+     al original. */
+  --color-neutral-50: 247 247 247;
+  --color-neutral-100: 240 240 240;
+  --color-neutral-200: 222 222 222;
+  --color-neutral-300: 194 194 194;
+  --color-neutral-400: 166 166 166;
+  --color-neutral-500: 128 128 128;
+  --color-neutral-600: 110 110 110;
+  --color-neutral-700: 89 89 89;
+  --color-neutral-800: 69 69 69;
+  --color-neutral-900: 51 51 51;
+
+  /* primary: color de acento principal (cabeceras).
+     Escala generada a partir de #0077B6 (H=201°, S=100%);
+     el tono 700 (0 117 179) es el más cercano al original. */
+  --color-primary-50: 240 250 255;
+  --color-primary-100: 224 244 255;
+  --color-primary-200: 189 232 255;
+  --color-primary-300: 133 213 255;
+  --color-primary-400: 77 193 255;
+  --color-primary-500: 0 167 255;
+  --color-primary-600: 0 143 219;
+  --color-primary-700: 0 117 179;
+  --color-primary-800: 0 90 138;
+  --color-primary-900: 0 67 102;
+
+  /* secondary: texto y detalles de apoyo.
+     #1E1E1E es un gris puro (S=0%), misma escala monocroma
+     que "neutral"; el tono 900 (51 51 51) es el más cercano
+     al original (aunque el original es aún más oscuro). */
+  --color-secondary-50: 247 247 247;
+  --color-secondary-100: 240 240 240;
+  --color-secondary-200: 222 222 222;
+  --color-secondary-300: 194 194 194;
+  --color-secondary-400: 166 166 166;
+  --color-secondary-500: 128 128 128;
+  --color-secondary-600: 110 110 110;
+  --color-secondary-700: 89 89 89;
+  --color-secondary-800: 69 69 69;
+  --color-secondary-900: 51 51 51;
+}
+
+/* -----------------------------------------------------------
+   Modo oscuro: paleta propia, distinta de la del modo claro.
+   ----------------------------------------------------------- */
+.dark {
+  /* neutral: fondo oscuro.
+     #0D0D0D es un gris puro (S=0%), misma escala monocroma
+     que las anteriores; el tono 900 (51 51 51) es el más
+     cercano, aunque el original es bastante más oscuro. */
+  --color-neutral-50: 247 247 247;
+  --color-neutral-100: 240 240 240;
+  --color-neutral-200: 222 222 222;
+  --color-neutral-300: 194 194 194;
+  --color-neutral-400: 166 166 166;
+  --color-neutral-500: 128 128 128;
+  --color-neutral-600: 110 110 110;
+  --color-neutral-700: 89 89 89;
+  --color-neutral-800: 69 69 69;
+  --color-neutral-900: 51 51 51;
+
+  /* primary: cabeceras.
+     Escala generada a partir de #00D9FF (H=189°, S=100%);
+     el tono 500 (0 217 255) coincide exactamente con el original. */
+  --color-primary-50: 240 253 255;
+  --color-primary-100: 224 250 255;
+  --color-primary-200: 189 245 255;
+  --color-primary-300: 133 237 255;
+  --color-primary-400: 77 228 255;
+  --color-primary-500: 0 217 255;
+  --color-primary-600: 0 187 219;
+  --color-primary-700: 0 152 179;
+  --color-primary-800: 0 117 138;
+  --color-primary-900: 0 87 102;
+
+  /* secondary: texto.
+     #E0E0E0 es un gris puro (S=0%), misma escala monocroma;
+     el tono 200 (222 222 222) es el más cercano al original. */
+  --color-secondary-50: 247 247 247;
+  --color-secondary-100: 240 240 240;
+  --color-secondary-200: 222 222 222;
+  --color-secondary-300: 194 194 194;
+  --color-secondary-400: 166 166 166;
+  --color-secondary-500: 128 128 128;
+  --color-secondary-600: 110 110 110;
+  --color-secondary-700: 89 89 89;
+  --color-secondary-800: 69 69 69;
+  --color-secondary-900: 51 51 51;
+}
+
+/* -----------------------------------------------------------
+   2. Colores exactos que pediste.
+   La paleta de arriba ya deja tonos muy cercanos, pero estas
+   reglas fuerzan los valores hex exactos, sin depender de a
+   qué tono concreto de la escala tire cada elemento.
+   ----------------------------------------------------------- */
+
+/* Modo claro */
+html:not(.dark) body {
+  background-color: #EFEFEF;
+}
+
+html:not(.dark) h1,
+html:not(.dark) h2,
+html:not(.dark) h3,
+html:not(.dark) h4,
+html:not(.dark) h5,
+html:not(.dark) h6 {
+  color: #0077B6;
+}
+
+html:not(.dark) p,
+html:not(.dark) li,
+html:not(.dark) span,
+html:not(.dark) article {
+  color: #1E1E1E;
+}
+
+/* Modo oscuro */
+html.dark body {
+  background-color: #0D0D0D;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #00D9FF;
+}
+
+html.dark p,
+html.dark li,
+html.dark span,
+html.dark article {
+  color: #E0E0E0;
+}
+
+.article-content.max-w-prose {
+  max-width: 75ch;
+}
+
+/* Colchón detrás del menú superior — SOLO modo claro */
+html:not(.dark) .header-nav,
+html:not(.dark) nav.header-nav {
+  background-color: rgb(239 239 239 / 0.85);
+  backdrop-filter: blur(4px);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Colchón detrás de los títulos de "Reciente" — SOLO modo claro */
+html:not(.dark) .recent-articles-item,
+html:not(.dark) article h2 a {
+  background-color: rgb(239 239 239 / 0.75);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+}

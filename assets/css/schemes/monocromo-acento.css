@@ -1,0 +1,144 @@
+/* =========================================================
+   Esquema de color "mi-esquema" para Blowfish (Monocromo con acento único)
+
+   MODO CLARO:  Fondo #F2F2F2 | Cabeceras #E63946 | Texto #1D1D1D
+   MODO OSCURO: Fondo #1A1A1A | Cabeceras #FF6B6B | Texto #EAEAEA
+   ========================================================= */
+
+/* -----------------------------------------------------------
+   1. Paleta base requerida por Blowfish/Tailwind.
+   Los valores van en formato "R G B" (sin comas, sin rgb()),
+   ya que así los usa Tailwind CSS 3.0 para poder aplicar
+   opacidad sobre las variables.
+   ----------------------------------------------------------- */
+:root {
+  /* neutral (fondo): escala generada a partir de #F2F2F2 (H=0°, S=0%); el tono 100 es el más cercano al original. */
+  --color-neutral-50: 247 247 247;
+  --color-neutral-100: 240 240 240;
+  --color-neutral-200: 222 222 222;
+  --color-neutral-300: 194 194 194;
+  --color-neutral-400: 166 166 166;
+  --color-neutral-500: 128 128 128;
+  --color-neutral-600: 110 110 110;
+  --color-neutral-700: 89 89 89;
+  --color-neutral-800: 69 69 69;
+  --color-neutral-900: 51 51 51;
+
+  /* primary (cabeceras): escala generada a partir de #E63946 (H=355°, S=78%); el tono 500 es el más cercano al original. */
+  --color-primary-50: 253 241 242;
+  --color-primary-100: 252 228 230;
+  --color-primary-200: 248 196 200;
+  --color-primary-300: 241 146 153;
+  --color-primary-400: 235 97 107;
+  --color-primary-500: 226 29 43;
+  --color-primary-600: 195 25 37;
+  --color-primary-700: 158 20 30;
+  --color-primary-800: 122 15 23;
+  --color-primary-900: 91 11 17;
+
+  /* secondary (texto): escala generada a partir de #1D1D1D (H=0°, S=0%); el tono 900 es el más cercano al original. */
+  --color-secondary-50: 247 247 247;
+  --color-secondary-100: 240 240 240;
+  --color-secondary-200: 222 222 222;
+  --color-secondary-300: 194 194 194;
+  --color-secondary-400: 166 166 166;
+  --color-secondary-500: 128 128 128;
+  --color-secondary-600: 110 110 110;
+  --color-secondary-700: 89 89 89;
+  --color-secondary-800: 69 69 69;
+  --color-secondary-900: 51 51 51;
+}
+
+/* -----------------------------------------------------------
+   Modo oscuro: paleta propia, distinta de la del modo claro.
+   ----------------------------------------------------------- */
+.dark {
+  /* neutral (fondo): escala generada a partir de #1A1A1A (H=0°, S=0%); el tono 900 es el más cercano al original. */
+  --color-neutral-50: 247 247 247;
+  --color-neutral-100: 240 240 240;
+  --color-neutral-200: 222 222 222;
+  --color-neutral-300: 194 194 194;
+  --color-neutral-400: 166 166 166;
+  --color-neutral-500: 128 128 128;
+  --color-neutral-600: 110 110 110;
+  --color-neutral-700: 89 89 89;
+  --color-neutral-800: 69 69 69;
+  --color-neutral-900: 51 51 51;
+
+  /* primary (cabeceras): escala generada a partir de #FF6B6B (H=0°, S=100%); el tono 300 es el más cercano al original. */
+  --color-primary-50: 255 240 240;
+  --color-primary-100: 255 224 224;
+  --color-primary-200: 255 189 189;
+  --color-primary-300: 255 133 133;
+  --color-primary-400: 255 77 77;
+  --color-primary-500: 255 0 0;
+  --color-primary-600: 219 0 0;
+  --color-primary-700: 178 0 0;
+  --color-primary-800: 138 0 0;
+  --color-primary-900: 102 0 0;
+
+  /* secondary (texto): escala generada a partir de #EAEAEA (H=0°, S=0%); el tono 100 es el más cercano al original. */
+  --color-secondary-50: 247 247 247;
+  --color-secondary-100: 240 240 240;
+  --color-secondary-200: 222 222 222;
+  --color-secondary-300: 194 194 194;
+  --color-secondary-400: 166 166 166;
+  --color-secondary-500: 128 128 128;
+  --color-secondary-600: 110 110 110;
+  --color-secondary-700: 89 89 89;
+  --color-secondary-800: 69 69 69;
+  --color-secondary-900: 51 51 51;
+}
+
+/* -----------------------------------------------------------
+   2. Colores exactos que pediste.
+   La paleta de arriba ya deja tonos muy cercanos, pero estas
+   reglas fuerzan los valores hex exactos, sin depender de a
+   qué tono concreto de la escala tire cada elemento.
+   ----------------------------------------------------------- */
+
+/* Modo claro */
+html:not(.dark) body {
+  background-color: #F2F2F2;
+}
+
+html:not(.dark) h1,
+html:not(.dark) h2,
+html:not(.dark) h3,
+html:not(.dark) h4,
+html:not(.dark) h5,
+html:not(.dark) h6 {
+  color: #E63946;
+}
+
+html:not(.dark) p,
+html:not(.dark) li,
+html:not(.dark) span,
+html:not(.dark) article {
+  color: #1D1D1D;
+}
+
+/* Modo oscuro */
+html.dark body {
+  background-color: #1A1A1A;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #FF6B6B;
+}
+
+html.dark p,
+html.dark li,
+html.dark span,
+html.dark article {
+  color: #EAEAEA;
+}
+
+.article-content.max-w-prose {
+  max-width: 75ch;
+}
