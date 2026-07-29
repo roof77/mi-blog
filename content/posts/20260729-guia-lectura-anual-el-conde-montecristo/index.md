@@ -6,7 +6,6 @@ tags:
 - reddit
 showHero: true
 heroStyle: big
-draft: False
 pinned: false
 created: 2026-07-29T11:39:31.325685878+00:00
 ---

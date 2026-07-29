@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mi blog</title>
-    <link>http://localhost:56877/mi-bog/tags/</link>
+    <link>http://localhost:1313/mi-bog/tags/</link>
     <description>Recent content in Tags on Mi blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 roof77</copyright>
-    <lastBuildDate>Wed, 29 Jul 2026 09:11:54 +0000</lastBuildDate><atom:link href="http://localhost:56877/mi-bog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jul 2026 09:11:54 +0000</lastBuildDate><atom:link href="http://localhost:1313/mi-bog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blog</title>
-      <link>http://localhost:56877/mi-bog/tags/blog/</link>
+      <link>http://localhost:1313/mi-bog/tags/blog/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56877/mi-bog/tags/blog/</guid>
+      <guid>http://localhost:1313/mi-bog/tags/blog/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Blowfish</title>
-      <link>http://localhost:56877/mi-bog/tags/blowfish/</link>
+      <link>http://localhost:1313/mi-bog/tags/blowfish/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56877/mi-bog/tags/blowfish/</guid>
+      <guid>http://localhost:1313/mi-bog/tags/blowfish/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Css</title>
-      <link>http://localhost:56877/mi-bog/tags/css/</link>
+      <link>http://localhost:1313/mi-bog/tags/css/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56877/mi-bog/tags/css/</guid>
+      <guid>http://localhost:1313/mi-bog/tags/css/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:56877/mi-bog/tags/hugo/</link>
+      <link>http://localhost:1313/mi-bog/tags/hugo/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56877/mi-bog/tags/hugo/</guid>
+      <guid>http://localhost:1313/mi-bog/tags/hugo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Lecturas</title>
-      <link>http://localhost:56877/mi-bog/tags/lecturas/</link>
+      <link>http://localhost:1313/mi-bog/tags/lecturas/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56877/mi-bog/tags/lecturas/</guid>
+      <guid>http://localhost:1313/mi-bog/tags/lecturas/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Reddit</title>
-      <link>http://localhost:56877/mi-bog/tags/reddit/</link>
+      <link>http://localhost:1313/mi-bog/tags/reddit/</link>
       <pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56877/mi-bog/tags/reddit/</guid>
+      <guid>http://localhost:1313/mi-bog/tags/reddit/</guid>
       <description></description>
       
     </item>
