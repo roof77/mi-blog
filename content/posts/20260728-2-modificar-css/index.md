@@ -5,7 +5,7 @@ tags:
 - hugo
 - blog
 - blowfish
-- css
+- CSS
 showHero: true
 heroStyle: big
 id: 17c2ce22-ee40-4b56-827b-d6aead175cec
@@ -271,7 +271,7 @@ B = 83/255=0,3254901961 (es el valor máximo)
 ```text
 L = (Máx + Min) / 2
 L = (0,3254901961 + 0,1490196078) / 2
-L = 0,4745098039 / 2 
+L = 0,4745098039 / 2
 L = 0,237255
 ```
 
@@ -283,7 +283,7 @@ Para #264653 teníamos que:
 
 ```text
 R = 38/255=0,14902
-G = 70/255=0,27451 
+G = 70/255=0,27451
 B = 83/255=0,32549
 Max = 0,32549
 Min = 0,14902
@@ -368,7 +368,7 @@ La rueda de color se divide en 6 sectores de 60 grados. Eso es así pq el matiz 
 
 Para saber en que color cae se divide la H entre 60 y nos quedamos con el entero. En nuestro ejemplo `H = 197,33°`, por lo que hacemos `197,33/60=3,28 → 3`. Es decir, está en el sector 3, que corresponde con (0, X, C).
 
-Calculamos entonces el valor RGB como 
+Calculamos entonces el valor RGB como
 
 ```text
 R' = 0 + m = 0,1696

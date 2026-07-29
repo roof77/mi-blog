@@ -1,6 +1,6 @@
 ---
 title: Guía de lectura anual de El conde de Montecristo
-date: 2026-07-28T11:00:00
+date: 2026-07-29T11:00:00
 tags:
 - lecturas
 - reddit
