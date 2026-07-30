@@ -142,3 +142,21 @@ html.dark article {
 .article-content.max-w-prose {
   max-width: 75ch;
 }
+
+/* Enlaces — modo claro */
+html:not(.dark) a {
+  color: #457B9D;
+  text-decoration-color: rgb(69 123 157 / 0.4);
+}
+html:not(.dark) a:hover {
+  color: #1D3557;
+}
+
+/* Enlaces — modo oscuro */
+html.dark a {
+  color: #A8DADC;
+  text-decoration-color: rgb(168 218 220 / 0.4);
+}
+html.dark a:hover {
+  color: #C8E8E9;
+}

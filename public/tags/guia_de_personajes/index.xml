@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guia_de_personajes on Mi blog</title>
+    <link>http://localhost:1313/mi-blog/tags/guia_de_personajes/</link>
+    <description>Recent content in Guia_de_personajes on Mi blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© 2026 roof77</copyright>
+    <lastBuildDate>Thu, 30 Jul 2026 07:14:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mi-blog/tags/guia_de_personajes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Guía de personajes de El conde de Montecristo</title>
+      <link>http://localhost:1313/mi-blog/posts/20260730-guia-personajes-el-conde-de-montecristo/</link>
+      <pubDate>Thu, 30 Jul 2026 07:14:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mi-blog/posts/20260730-guia-personajes-el-conde-de-montecristo/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mi-blog/posts/20260730-guia-personajes-el-conde-de-montecristo/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
